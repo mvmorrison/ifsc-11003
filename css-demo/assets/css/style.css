@@ -183,9 +183,8 @@ figure{
   flex:1;
 }
 
-h2#recent-posts{
-  flex:0 0 100%;
-  color:#dba1d7
+h2#recent-posts {
+  color: var(--primary);
 }
 
 
