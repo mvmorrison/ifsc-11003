@@ -91,8 +91,8 @@ body {
 }
 
 header.primary{
-  background-color:#ffffff;
-  color:#dba1d7;
+  background-color:#dba1d7;
+  color:#ffffff;
   text-align:center;
   text-shadow:2px 2px #000000;
   /* Longform */
@@ -109,7 +109,7 @@ header.primary{
 }
 
 header.primary a{
-  color:#dba1d7;
+  color:#ffffff;
   text-decoration:none;
 }
 
