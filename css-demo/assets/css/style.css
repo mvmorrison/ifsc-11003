@@ -147,7 +147,7 @@ nav.primary ul li a:hover{
 }
 
 #content h2, #practice h2{
-  color:#3b638b;
+  color:#dba1d7;
   border-bottom:1px dashed #c0c0c0;
 }
 
@@ -191,11 +191,11 @@ article.post time, article.post figcaption{
 }
 
 article.post a{
-color:#3b638b;
+color:#dba1d7;
 }
 
 #practice a{
- color:#3b638b;
+ color:#dba1d7;
 }
 
 #practice a:hover{
@@ -203,7 +203,7 @@ color:#3b638b;
 }
 
 #practice h3{
-  border-left:7.5px solid #3b638b;
+  border-left:7.5px solid #dba1d7;
   padding: 10px 0 10px 10px;
 }
 
