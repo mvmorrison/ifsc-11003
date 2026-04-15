@@ -245,8 +245,41 @@ th{
   padding:10px;
 }
 
+#practice ol{
+  list-style-type:lower-roman;
+}
 
+#practice ul ul{
+  color: red;
+}
 
+#practice dt{
+  font-weight: bold;
+}
+
+dd + dt{
+  margin-top: 20px;
+  color: red;
+}
+
+blockquote{
+  background-color: 172635;
+  border: 4px double #c0c0c0;
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px 60px;
+}
+
+blockquote cite{
+  display: block;
+  margin-top: 20px;
+  text-align: right;
+  font-size: .8rem;
+}
+
+#practice dd{
+  margin-left: 0;
+}
 
 aside[aria-label="sidebar"] {
   background-color:#dba1d7;
