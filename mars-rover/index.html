@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mars Rover - Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="NASA Mars Rover Program showcasing the Curiosity and Perseverance missions.">
+  <meta name="keywords" content="NASA, Mars, Rover, Curiosity, Perseverance, Space Exploration">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA Mars Rovers</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
 
-<header>
-<h1>Mars Rover</h1>
-<p>Robotic explorers on the Red Planet</p>
-
-<nav>
+<header class="topbar">
+  <img src="assets/img/nasa-logo.png" alt="NASA logo" class="logo">
+  <nav aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="mission-history.html">History</a>
+    <a href="mission-history.html">Mission History</a>
     <a href="faq.html">FAQ</a>
-</nav>
+  </nav>
 </header>
 
-<main>
-    <h2>Welcome</h2>
-    <p>
-        NASA's Mars rovers explore the planets surface to learn about its history and environment.
-    </p>
+<section class="mars">
+  <img src="assets/img/mars.jpg" alt="Mars landscape" class="mars-img">
+  <div class="mars-text">
+    <h1>Mars Rovers Project</h1>
+    <p>Robotic Explorers on the Red Planet</p>
+  </div>
+</section>
 
-    <h3>Featured Rovers</h3>
-    <p><strong>Perserverance:</strong> searching for signs of ancient microbial life and collect samples.</p>
-    <p><strong>Curiosity:</strong> determine if Mars was ever able to support microbial life.</p>
+<main>
+
+  <section class="intro">
+    <h2>Exploring Mars</h2>
+    <p>
+      NASA's Mars Rover Program explores the planet's surface to study its climate,
+      geology, and potential for past life.
+    </p>
+  </section>
+
+  <section class="grid">
+
+    <article class="card">
+      <img src="assets/img/curiosity.jpg" alt="Curiosity Rover on Mars">
+      <h3>Curiosity</h3>
+      <p>Curiosity's mission goal is to determine if Mars was ever able to support microbial life.</p>
+      <ul>
+        <li>Launched on Nov. 26th, 2011</li>
+        <li>Landed on Aug. 6th, 2012</li>
+      </ul>
+      <p>Major discoveries include finding chemical and mineral evidence of past habitable environments on Mars, as well as seeing Martian "Spiderwebs" up close.</p>
+      <p>The Curiosity Rover features a geology lab, rocker-bogie suspension, rock-vaporizing laser, and lots of cameras. It has an arm reach of about 7 feet, weighs 1,982 lbs, and is about the size of a small SUV, at 10 feet long, 9 feet wide, and 7 feet tall.</p>
+    </article>
+
+    <article class="card">
+      <img src="assets/img/perseverance.jpg" alt="Perseverance Rover on Mars">
+      <h3>Perseverance</h3>
+      <p>Perserverance's mission goal is to seek signs of ancient life and to collect samples of rock and regolith for possible Earth return.</p>
+      <ul>
+        <li>Launched on July 30th, 2020</li>
+        <li>Landed on Feb. 18th, 2021</li>
+      </ul>
+      <p>Major discoveries include discovering potential biosignature, as well as building a unique rock collection which includes samples of Mars atmosphere and loosee surface material.</p>
+      <p>The Perserverance Rover features a body like a car with a larger hand than the Curiosity rover. It has a length of 10 feet, width of 9 feet, height of 7 feet, and weighs about 2,260 lbs.</p>
+    </article>
+
+  </section>
+
 </main>
 
 <footer>
-    <p>Contact: mvmorrison@ualr.edu</p>
-    <p>Eductional Project Only.</p>
+  <p>Contact: <a href="mailto:mvmorrison.edu">mvmorrison.edu</a></p>
+  <p>
+    External: <a href="https://mars.nasa.gov" target="_blank" rel="noopener">NASA Mars Exploration</a>
+  </p>
+  <p class="disclaimer">
+    This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.
+  </p>
 </footer>
+
 </body>
 </html>
