@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  width: 70px;
+  width: 120px;
 }
 
 nav a {
@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 .mars-text p {
-  color: #e03c31;
+  color: #cb772e;
 }
 
 /*----- MAIN CONTENT -----*/
